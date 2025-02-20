@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: #010c21;
+    height: 100px;
+}
+.logo{
+    margin-left: 20px;
+    color: aliceblue;
+    margin-left: 100px;
+    
+}
+.logo:hover{
+    color: palevioletred;
+}
+.list ul{
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    text-decoration: none;
+    margin-top: 25px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+   
+}
+ li{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+
+}
