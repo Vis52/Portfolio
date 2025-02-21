@@ -12,8 +12,8 @@ const Home = () => {
         <h4>I'm a passionate web enthusiast constantly exploring <br/>
         the latest trends and technologies. Driven by a love for<br/>
      building innovative and user-centric digital experiences.</h4>
-     <button className='b1'>Hire Me</button>
-     <button className='b2'>Get In Touch</button>
+     <button className='b1' ><a href='https://portfolio-vishal-sh.netlify.app/Project'>See my projects</a></button>
+     <button className='b2'><a href='https://portfolio-vishal-sh.netlify.app/contact'>Get In Touch</a></button>
       
     </div>
     <div className='vc-right'>
@@ -25,4 +25,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

@@ -1,76 +1,70 @@
-.car-container{
+
+.car-container {
     display: flex;
     background-color: #010c21;
     gap: 20px;
     height: 500px;
+    margin-left: 0;
+    flex-wrap: wrap; 
 }
 
-
-
-.car{
+.car, .car2, .car3 {
     margin-top: 50px;
     background-color: #0d1b35;
     border: 1px solid black;
     border-radius: 20px;
-    margin-left: 90px;
-    width: 400px;
+    width: 100%; 
+    margin-left: 0;
+
 }
-.car h3{
-    margin-left: 80px;
+
+.car h3, .car2 h3, .car3 h3 {
+    margin-left: 0;
     color: white;
+    text-align: center; 
 }
-.car button{
-    margin-left: 120px;
+
+.car button, .car2 button, .car3 button {
+    margin-left: auto;
+    margin-right: auto;
     background-color: #9374e8;
     text-decoration: none;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 50px;
+    display: block;
 }
-/* .cae a{
+button a{
     text-decoration: none;
-    font-size: 40px;
-} */
-.car2{
-    margin-top: 50px;
-    background-color: #0d1b35;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-left: 90px;
-    width: 400px;
 }
-.car2 h3{
-    margin-left: 80px;
-    color: white;
+
+
+@media (min-width: 768px) {
+    .car, .car2, .car3 {
+        width: 45%; 
+        margin-left: 20px;
+    }
+
+    .car-container {
+        justify-content: center; 
+    }
 }
-.car2 button{
-    margin-left: 120px;
-    background-color: #9374e8;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+
+
+@media (min-width: 1024px) {
+    .car, .car2, .car3 {
+        width: 30%; 
+        margin-left: 20px;
+    }
+
+    .car-container {
+        justify-content: space-around; 
+    }
 }
-.car3{
-    margin-top: 50px;
-    background-color: #0d1b35;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-left: 90px;
-    width: 400px;
-}
-.car3 h3{
-    margin-left: 80px;
-    color: white;
-}
-.car3 button{
-    margin-left: 120px;
-    background-color: #9374e8;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-.car3 img{
-    width: 250px;
+
+.car3 img {
+    width: 100%;
+    max-width: 250px; 
+    margin: 0 auto; 
+    display: block;
 }

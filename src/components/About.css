@@ -1,95 +1,206 @@
-.home-container{
+.home-container {
     background-color: #010c21;
     display: flex;
+    margin-left: 0;
+    flex-direction: column; 
+    align-items: center; 
 }
-.home-left{
+
+
+.home-left {
     margin-top: 150px;
     margin-bottom: 40px;
     border: 2px solid white;
     border-radius: 40px;
     background-color: #fff;
     width: 340px;
-    margin-left: 100px;
+   
     height: 480px;
+    text-align: center; 
 }
-.home-left img{
+
+.home-left img {
     height: 300px;
     width: 300px;
     margin-left: 15px;
     margin-top: 20px;
     border-radius: 25px;
-    
-}
- .home-left h1{
-    margin-left: 60px;
-}
- .home-left h3{
-    margin-left: 80px;
-    margin-top: 0;
-}
-.home-right{
-    margin-left: 60px;
-    margin-top: 100px;
 }
 
- .h1{
-    
+.home-left h1, .home-left h3 {
+    margin-left: 0; 
+    text-align: center; 
+}
+
+.home-left h1 {
+    margin-top: 20px;
+}
+
+
+.home-right {
+  
+    margin-top: 100px;
+    text-align: center; 
+}
+.h1 {
     color: #949090;
     font-size: 70px;
     margin-top: 0;
-    margin-left: 80px;
+    text-align: center;
 }
-h5{
+
+
+h5 {
     color: #969191;
     font-size: 20px;
-    margin-left: 70px;
+    margin-left: 0; 
+    text-align: center; 
 }
- img{
+
+
+img {
     height: 200px;
     width: 300px;
     margin-left: 50px;
-    
-
+    display: block;
+    margin: 20px auto; 
 }
-.suru{
+
+
+.suru {
     display: flex;
     gap: 50px;
-    margin-left: 70px;
+    
+    margin-top: 30px;
     height: 250px;
+    justify-content: center; 
 }
-.right-left{
-    border: 1px solid rgb(248, 143, 105);
-    border-radius: 25px;
+
+
+.right-left, .right-right {
     width: 250px;
     height: 200px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right-left {
+    border: 1px solid rgb(248, 143, 105);
     background-color: rgb(248, 143, 105);
 }
-.right-left img{
+
+.right-left img {
     height: 40px;
     width: 50px;
     border-radius: 5px;
-    margin-left: 4px;
     margin-top: 10px;
 }
-.right-left h4{
+
+.right-left h4 {
     color: rgb(20, 18, 18);
     margin-left: 8px;
 }
-button{
+
+/* Button */
+button {
     color: #0a0909;
     background-color: #f28686;
     border-radius: 10px;
     margin-left: 30px;
     height: 30px;
+    padding: 5px 15px;
 }
-.right-right{
-    border: 1px solid rgb(186, 235, 87);
-    border-radius: 25px;
-    width: 250px;
-    height: 200px;background-color:rgb(186, 235, 87);
 
+/* Right-right Section */
+.right-right {
+    border: 1px solid rgb(186, 235, 87);
+    background-color: rgb(186, 235, 87);
 }
-.right-right h4{
+
+.right-right h4 {
     color: rgb(10, 9, 9);
     margin-left: 8px;
+}
+
+/* Media Queries */
+
+/* For Tablet and Small Laptops (min-width: 768px) */
+@media (min-width: 768px) {
+    .home-container {
+        flex-direction: row; 
+        justify-content: space-around; 
+    }
+
+    .home-left {
+        margin-top: 100px; 
+        /* margin-left: 40px; */
+    }
+
+    .home-left h1, .home-left h3 {
+        margin-left: 20px; 
+    }
+
+    .home-right {
+        /* margin-left: 40px; */
+    }
+
+    .h1 {
+        font-size: 60px; 
+    }
+
+    .suru {
+        justify-content: space-between; 
+    }
+
+    .right-left, .right-right {
+        width: 45%; 
+    }
+
+    img {
+        width: 250px;
+    }
+
+    button {
+        margin-left: 10px;
+    }
+}
+
+/* For Large Screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .home-container {
+        flex-direction: row; 
+    }
+
+    .home-left {
+        margin-top: 150px;
+        width: 340px;
+        margin-left: 100px;
+    }
+
+    .home-right {
+        margin-top: 100px;
+    }
+
+    .h1 {
+        font-size: 70px; 
+    }
+
+    .suru {
+        gap: 50px;
+    }
+
+    .right-left, .right-right {
+        width: 250px; 
+    }
+
+    img {
+        width: 300px;
+    }
+
+    button {
+        margin-left: 30px; 
+    }
 }

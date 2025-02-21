@@ -1,67 +1,72 @@
-.main{
-    background-color:#010c21;
+/* Base styles (Mobile-First Approach) */
+.main {
+    background-color: #010c21;
     display: flex;
     flex-direction: column;
-}
-.main1 {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: white;
-    display: flex;
-    margin-top: 100px;
-    height: 200px;
-    
+    align-items: center;
 }
 
-.main1 img {
-    margin-top: 30px;
+.main1, .main2, .main3 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically align the image and text */
+    justify-content: center;
+    margin: 0 20px;
+    margin-top: 100px;
+}
+
+.main1 img, .main2 img, .main3 img {
     height: 100px;
-    margin-right: 10px;
     width: 150px;
-   
-   
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-.main3 {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: white;
-    display: flex;
-    margin-top: 100px;
-    height: 150px;
-    
+.main1, .main2, .main3 {
+    height: auto;
 }
 
-.main3 img {
-    margin-top: 30px;
-    height: 90px;
-    margin-right: 30px;
-    width: 150px;
-   
-   
-}
-.main2 {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    background-color: white;
-    display: flex;
-    margin-top: 100px;
-    height: 150px;
-    
+.main1 h2, .main2 h2, .main3 h2 {
+    font-size: 18px;
+    color: #010c21;
 }
 
-.main2 img {
-    margin-top: 30px;
-    height: 90px;
-    margin-right: 30px;
-    width: 150px;
-   
-   
+/* For Tablets and Small Laptops (min-width: 768px) */
+@media (min-width: 768px) {
+    .main1, .main2, .main3 {
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 100px;
+    }
+
+    .main1 img, .main2 img, .main3 img {
+        height: 120px;
+        width: 180px;
+        margin-right: 30px;
+    }
+
+    .main1 h2, .main2 h2, .main3 h2 {
+        font-size: 22px;
+    }
 }
 
+/* For Larger Screens (Desktops - min-width: 1024px) */
+@media (min-width: 1024px) {
+    .main1, .main2, .main3 {
+        margin-left: 200px;
+        margin-right: 200px;
+        height: 250px;
+    }
+
+    .main1 img, .main2 img, .main3 img {
+        height: 140px;
+        width: 200px;
+    }
+
+    .main1 h2, .main2 h2, .main3 h2 {
+        font-size: 24px;
+    }
+}

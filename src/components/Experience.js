@@ -10,7 +10,7 @@ const Experience = () => {
             <h5>Frontend Developer Intern</h5>
             <ul>
                 <li>I contributed to developing responsive web pages using HTML, CSS, and JavaScript, React, Bootstrap.</li>
-                <li> I collaborated with the team to enhance user interfaces and optimize web performance.</li>
+                {/* <li> I collaborated with the team to enhance user interfaces and optimize web performance.</li> */}
             </ul>
 
         </div>
@@ -19,7 +19,7 @@ const Experience = () => {
         <h3>July 2024 - August 2024</h3>
         <h5>Training</h5>
         <ul>
-            <li>During Training worked on an ML-based model under the guidance of senior mentors, contributing to the development and optimization of cutting-edge solutions for the company.</li>
+            <li>During Training worked on an ML-based model under the guidance of senior mentors, contributing to the <br/>development and optimization of cutting-edge solutions for the company.</li>
         </ul>
             
         </div><div className='item3'>
