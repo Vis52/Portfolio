@@ -84,5 +84,10 @@
     margin-left: 400px;
     height: 200px;
 }
-
+.icon-link a{
+  gap: 5px;
+}
+.icon-link i{
+  gap: 10px;
+}
 
