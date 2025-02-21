@@ -7,17 +7,31 @@ import Experience from './components/Experience.js';
 import Contact from './components/Contact.js';
 import Project from './components/Project.js';
 import Skills from './components/Skills.js';
+import Footer from './components/Footer.js';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/applayout/Layout.js';
 
 function App() {
+  // return (<div>
+  //   <Navbar/>
+  //   <Home/>
+  //   <About/>
+  //   <Education/>
+  //   <Experience/>
+  //   <Project/>
+  //   <Skills/>
+  //   <Contact/>
+  //   <Footer/>
+  // </div>
+
+  // )
   const router = createBrowserRouter([{
     path: "/",
     element: <Layout />,
     children:[
       {
         path: "/Home",
-        element: <Layout />,
+        element: <Home />,
       },
       {
         path: "/About",
@@ -37,12 +51,13 @@ function App() {
       },
       {
         path: "/Skills",
-        element: <Skills />,
+        element: <Skills />, 
       },
       {
         path: "/Contact",
         element: <Contact />,
       },
+      
 
     ]
 
@@ -50,7 +65,7 @@ function App() {
   return <RouterProvider router={router}/>
     
   
-}
+ }
 
 
 export default App;

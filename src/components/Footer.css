@@ -1,0 +1,19 @@
+.footer{
+    background-color: #010c21;
+    display: flex;
+    
+    /* padding: 50px; */
+}
+.footer-left{
+    margin-top: 400px;
+    color: white;
+    font-size: 15px;
+}
+.footer-right{
+    margin-top: 430px;
+    margin-left: 850px;
+}
+.footer-right a{
+    color: white;
+    margin-top: 80px;
+}

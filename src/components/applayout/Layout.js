@@ -1,14 +1,23 @@
 import React from 'react'
 import Navbar from '../Navbar'
-import Contact from'../Contact'
-import {Outlet} from 'react-router-dom';
+import {Outlet,useLocation} from 'react-router-dom';
+import Footer from '../Footer';
+import Home from '../About';
 
 const Layout = () => {
+  const location = useLocation();
+  const isHome = location.pathname === '/'
   return (
     <div>
         <Navbar />
-        <Outlet />
-        <Contact />
+        {
+          isHome && (
+            <div><Home />
+            </div>
+          )
+        }
+        <Outlet />       
+        <Footer/>
       
     </div>
   )
