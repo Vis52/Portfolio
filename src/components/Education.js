@@ -6,10 +6,10 @@ import svm from '../utils/svm.jpeg';
 
 const Education = () => {
   return (
-    <div class="card-container">
-    <div class="card">
-      <img src={dcrust1} alt="Card Image" class="card-img"/>
-      <div class="card-content">
+    <div class="container-fluid card-container">
+    <div class="container-fluid card">
+      <img src={dcrust1} alt="Card Image" class="container-fluid card-img"/>
+      <div class="container-fluid card-content">
         <h3>Bachelor's Technology in Computer Science Engineering
         
         </h3>
@@ -18,9 +18,9 @@ const Education = () => {
         <h5>CGPA - 7.9 Till 6th semester </h5>
       </div>
     </div>
-    <div class="card2">
-      <img src={pusa} alt="Card Image" class="card-img2"/>
-      <div class="card-content2">
+    <div class="container-fluid card2">
+      <img src={pusa} alt="Card Image" class="container-fluid card-img2"/>
+      <div class="container-fluid card-content2">
         <h3>Diploma in Mechanical<br/>
          Engineering</h3>
          <h2>August 2019 - June 2022</h2>
@@ -28,9 +28,9 @@ const Education = () => {
 <h5>Percentage - 84.5% </h5>
       </div>
     </div>
-    <div class="card3">
-      <img src={svm} alt="Card Image" class="card-img3"/>
-      <div class="card-content3">
+    <div class="container-fluid card3">
+      <img src={svm} alt="Card Image" class="container-fluid card-img3"/>
+      <div class="container-fluid card-content3">
         <h3>High School</h3>
         <h2>Completed in 2018</h2>
 
@@ -43,4 +43,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Education;

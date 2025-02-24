@@ -15,24 +15,24 @@ import github from '../utils/github.png';
 const Skills = () => {
   return (
     <div className=' container-fluid main'>
-        <div className='main1'>
-            <img src={html} alt=''/>
-            <img src={css} alt=''/>
-            <img src={js} alt=''/>
-            <img src={cpp} alt=''/>
+        <div className='container-fluid main1'>
+            <img src={html} alt=''className='container-fluid'/>
+            <img src={css} alt=''className='container-fluid'/>
+            <img src={js} alt=''className='container-fluid'/>
+            <img src={cpp} alt=''className='container-fluid'/>
         </div>
-        <div className='main2'>
-        <img src={react} alt=''/>
-         <img src={bootstrap} alt=''/>
-          <img src={node} alt=''/>
+        <div className='container-fluid main2'>
+        <img src={react} alt=''className='container-fluid'/>
+         <img src={bootstrap} alt=''className='container-fluid'/>
+          <img src={node} alt=''className='container-fluid'/>
         </div>
-        <div className='main3'>
-        <img src={git} alt=''/>
-        <img src={github} alt=''/>
+        <div className='container-fluid main3'>
+        <img src={git} alt=''className='container-fluid'/>
+        <img src={github} alt=''className='container-fluid'/>
         </div>
       
     </div>
   )
 }
 
-export default Skills
+export default Skills;

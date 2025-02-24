@@ -4,10 +4,10 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div className=' container-fluid navbar'>
-        <div className='logo'>
+        <div className=' container-fluid logo'>
             <h2>Vishal Sharma</h2>
         </div>
-        <div className='list'>
+        <div className='container-fluid list'>
             <ul>
                 <a href='/Home'><li>Home</li></a>
                 <a href='/About'><li>About</li></a>

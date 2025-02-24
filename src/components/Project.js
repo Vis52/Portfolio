@@ -7,11 +7,11 @@ import organic from '../utils/organic.jpg'
 const Project = () => {
     return (
         <div class=" container-fluid car-container">
-            <div class="car">
+            <div class="container-fluid car">
                 <h3>Asset Care WebApp
 
                 </h3>
-                <img src={asset} alt="Card Image" class="card-img" />
+                <img src={asset} alt="Card Image" class=" container-fluid card-img" />
 
 
                 <button> <a href='https://assetcare.netlify.app/' >View Project</a></button>
@@ -19,15 +19,15 @@ const Project = () => {
 
 
             </div>
-            <div class="car2">
+            <div class="container-fluid car2">
                 <h3>Organic Beauty Web App</h3>
-                <img src={organic} alt="Card Image" class="card-img2" />
+                <img src={organic} alt="Card Image" class="container-fluid card-img2" />
                 <button> <a href='https://organic-beauty-vs.netlify.app/' >View Project</a></button>
 
             </div>
-            <div class="car3">
+            <div class="container-fluid car3">
                 <h3>tic-toe game</h3>
-                <img src={tic} alt="Card Image" class="card-img3" />
+                <img src={tic} alt="Card Image" class="container-fluid card-img3" />
                 <button> <a href='https://vishal-tic-toe.netlify.app/' >View Project</a></button>
             </div>
 
@@ -35,4 +35,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Project;

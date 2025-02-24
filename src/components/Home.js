@@ -5,7 +5,7 @@ import code from '../utils/code.webp';
 
 const Home = () => {
   return (<div className=' container-fluid vc'>
-    <div className='vc-left'>
+    <div className='container-fluid vc-left'>
         <h1>Hey,<br/>
         I'm Vishal Sharma<br/>
         Frontend Developer</h1>
@@ -16,8 +16,8 @@ const Home = () => {
      <button className='b2'><a href='https://portfolio-vishal-sh.netlify.app/contact'>Get In Touch</a></button>
       
     </div>
-    <div className='vc-right'>
-        <img src={code} alt=''/>
+    <div className='container-fluid vc-right'>
+        <img src={code} alt=''className='container-fluid'/>
     </div>
    
 </div>
