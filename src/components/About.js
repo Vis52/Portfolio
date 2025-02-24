@@ -18,7 +18,7 @@ const Home = () => {
 
         </div>
         <div className='container-fluid home-right'>
-            <h1 className='h1'>FRONTEND <br/>
+            <h1 className=' container-fluid c1'>FRONTEND <br/>
             
             DEVELOPER
             </h1>

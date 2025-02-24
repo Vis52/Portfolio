@@ -15,7 +15,7 @@ const Experience = () => {
 
         </div>
       <div className='container-fluid item2'>
-        <h1>UNIC Software</h1>
+        <h1>UNIC Software</h1>  
         <h3>July 2024 - August 2024</h3>
         <h5>Training</h5>
         <ul>

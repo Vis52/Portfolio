@@ -1,11 +1,11 @@
-
 .bo {
   background-color: #010c21;
   display: flex;
   flex-direction: column; 
   align-items: center; 
   padding: 20px;
-  height: 30%;
+  height: auto; /* Changed from fixed height to auto for better mobile behavior */
+  box-sizing: border-box;
 }
 
 .contact-info {
@@ -13,12 +13,12 @@
   background-color: #1a2a48;
   margin: 0 auto; 
   border-radius: 30px;
-  height: auto; 
-  margin-top: 50px;
   width: 90%; 
   max-width: 1000px; 
   padding: 20px;
   box-sizing: border-box;
+  height: auto;
+  margin-top: 50px;
 }
 
 .contact-info h1 {
@@ -26,6 +26,7 @@
   text-align: center;
   color: #c3bdbd;
   font-size: 44px;
+  transition: color 0.3s ease;
 }
 
 .contact-container {
@@ -60,7 +61,6 @@
   align-items: center; 
   height: auto;
 }
-
 
 .icon-link {
   text-decoration: none;
@@ -130,12 +130,11 @@
 @media (min-width: 1024px) {
   .bo {
       padding: 50px;
-      height: 30%;
+      height: auto; /* Changed from 30% to auto for flexibility */
   }
 
   .contact-info {
       width: 80%; 
-      
   }
 
   .contact-info h1 {

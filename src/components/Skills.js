@@ -14,7 +14,7 @@ import github from '../utils/github.png';
 
 const Skills = () => {
   return (
-    <div className=' container-fluid main'>
+    <div className='container-fluid main'>
         <div className='container-fluid main1'>
             <img src={html} alt=''className='container-fluid'/>
             <img src={css} alt=''className='container-fluid'/>

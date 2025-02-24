@@ -4,6 +4,7 @@
     margin-left: 0;
     flex-direction: column; 
     align-items: center; 
+    width: 100%;
 }
 
 
@@ -13,15 +14,15 @@
     border: 2px solid white;
     border-radius: 40px;
     background-color: #fff;
-    width: 340px;
+    /* width: 340px; */
    
-    height: 480px;
+    /* height: 480px; */
     text-align: center; 
 }
 
 .home-left img {
-    height: 300px;
-    width: 300px;
+    /* height: 300px;
+    width: 300px; */
     margin-left: 15px;
     margin-top: 20px;
     border-radius: 25px;
@@ -41,12 +42,18 @@
   
     margin-top: 100px;
     text-align: center; 
+    width: 50%;
 }
-.h1 {
-    color: #949090;
-    font-size: 70px;
-    margin-top: 0;
-    text-align: center;
+.c1 {
+    color: #969191;
+    font-size: 255%;
+    /* height: 40%;
+    width: 30%;
+    color: #817e7e;
+    font-size: 70px; */
+    
+   
+  
 }
 
 
@@ -72,19 +79,19 @@ img {
     gap: 50px;
     
     margin-top: 30px;
-    height: 250px;
+    /* height: 250px; */
     justify-content: center; 
 }
 
 
 .right-left, .right-right {
-    width: 250px;
-    height: 200px;
+    /* width: 250px; */
+    /* height: 200px; */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 
 .right-left {
@@ -93,8 +100,8 @@ img {
 }
 
 .right-left img {
-    height: 40px;
-    width: 50px;
+    /* height: 40px; */
+    /* width: 50px; */
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -110,7 +117,7 @@ button {
     background-color: #f28686;
     border-radius: 10px;
     margin-left: 30px;
-    height: 30px;
+    /* height: 30px; */
     padding: 5px 15px;
 }
 
@@ -122,12 +129,10 @@ button {
 
 .right-right h4 {
     color: rgb(10, 9, 9);
-    margin-left: 8px;
+    margin-left: auto;
 }
 
-/* Media Queries */
 
-/* For Tablet and Small Laptops (min-width: 768px) */
 @media (min-width: 768px) {
     .home-container {
         flex-direction: row; 

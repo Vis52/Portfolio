@@ -1,9 +1,9 @@
-
 .main {
     background-color: #010c21;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 0; /* Added padding for better spacing */
 }
 
 .main1, .main2, .main3 {
@@ -12,61 +12,65 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    margin: 0 20px;
-    margin-top: 100px;
+    margin: 0 10px;  /* Reduced margin for smaller screens */
+    margin-top: 50px;  /* Slightly smaller top margin for better alignment */
+    padding: 10px;
+    width: 90%;  /* Added width for better responsiveness */
+    max-width: 1200px; /* Limits the maximum width for large screens */
 }
 
 .main1 img, .main2 img, .main3 img {
-    height: 100px;
-    width: 150px;
-    margin-right: 20px;
-    margin-top: 20px;
-}
-
-.main1, .main2, .main3 {
-    height: auto;
+    height: auto; /* Maintain image aspect ratio */
+    width: 60px; /* Default width for mobile devices */
+    max-width: 100%; /* Prevents image overflow */
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .main1 h2, .main2 h2, .main3 h2 {
-    font-size: 18px;
+    font-size: 16px;  /* Default font size for mobile devices */
     color: #010c21;
+    margin: 0;
 }
 
 /* For Tablets and Small Laptops (min-width: 768px) */
 @media (min-width: 768px) {
     .main1, .main2, .main3 {
-        margin-left: 100px;
-        margin-right: 100px;
-        height: 100px;
+        margin-left: 30px;
+        margin-right: 30px;
+        height: auto;  /* Auto height ensures it scales */
+        padding: 20px;
     }
 
     .main1 img, .main2 img, .main3 img {
-        height: 120px;
-        width: 180px;
-        margin-right: 30px;
+        height: auto;
+        width: 120px;  /* Slightly larger images */
+        margin-right: 20px;
     }
 
     .main1 h2, .main2 h2, .main3 h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
 /* For Larger Screens (Desktops - min-width: 1024px) */
 @media (min-width: 1024px) {
     .main1, .main2, .main3 {
-        margin-left: 200px;
-        margin-right: 200px;
-        height: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: auto;  /* Use auto for dynamic height */
+        padding: 25px;
     }
 
     .main1 img, .main2 img, .main3 img {
-        height: 140px;
-        width: 200px;
+        height: auto;
+        width: 150px;  /* Larger images on desktops */
+        margin-right: 30px;
     }
 
     .main1 h2, .main2 h2, .main3 h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }

@@ -1,12 +1,12 @@
-
+/* Base styles for mobile-first responsiveness */
 .navbar {
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; /* Stack items vertically on small screens */
     align-items: center; 
     justify-content: center;
     background-color: #010c21;
-    height: 100px;
-    padding: 10px;
+    height: auto;
+    padding: 10px 0;
 }
 
 .logo {
@@ -14,6 +14,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px; 
+    text-align: center;
 }
 
 .logo:hover {
@@ -22,14 +23,15 @@
 
 .list ul {
     display: flex;
-    flex-direction: row; 
-    gap: 20px;
-    margin: 0;
+    flex-direction: column; /* Stack items vertically for mobile */
+    gap: 10px;
     padding: 0;
+    margin: 0;
     color: rgb(160, 21, 21);
-    font-size: 20px;
+    font-size: 18px; /* Adjust font size for smaller screens */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: none;
+    text-align: center;
 }
 
 li {
@@ -37,7 +39,6 @@ li {
     font-style: normal;
     font-weight: bolder;
     color: rgb(243, 236, 236);
-    text-align: center;
 }
 
 .list a {
@@ -45,12 +46,12 @@ li {
     color: inherit;
 }
 
-/* For Medium Devices (Tablets, Small Laptops - min-width: 768px) */
+/* For Medium Devices (Tablets and up to 1024px) */
 @media (min-width: 768px) {
     .navbar {
-        flex-direction: row; /* Align logo and menu horizontally */
+        flex-direction: row; /* Switch to row layout on tablets */
         justify-content: space-between;
-        padding: 20px 40px;
+        padding: 15px 40px;
         height: 80px;
     }
 
@@ -62,13 +63,13 @@ li {
 
     .list ul {
         flex-direction: row; 
-        gap: 40px;
-        margin-left: auto; 
+        gap: 20px;
+        margin-left: auto;
         margin-top: 0; 
     }
 
     .list a {
-        font-size: 18px; 
+        font-size: 18px;
     }
 }
 
@@ -83,7 +84,7 @@ li {
     }
 
     .list ul {
-        gap: 60px;
+        gap: 30px;
     }
 
     .list a {

@@ -30,12 +30,14 @@
 .item1 h5, .item2 h5, .item3 h5 {
     color: azure;
     font-size: 16px;
+    margin:0 ;
 }
 
 .item1 li, .item2 li, .item3 li {
     color: rgb(226, 212, 195);
     /* margin-left: 40px; */
     font-size: 14px;
+    margin: 0;
 }
 
 /* For Tablets and Small Laptops (min-width: 768px) */
