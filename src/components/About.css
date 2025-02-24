@@ -116,12 +116,12 @@ button {
     color: #0a0909;
     background-color: #f28686;
     border-radius: 10px;
-    margin-left: 30px;
+    margin-left: 0;
+    width: 70%;
     /* height: 30px; */
     padding: 5px 15px;
 }
 
-/* Right-right Section */
 .right-right {
     border: 1px solid rgb(186, 235, 87);
     background-color: rgb(186, 235, 87);

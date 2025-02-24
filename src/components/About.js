@@ -31,13 +31,13 @@ const Home = () => {
                 <h4>
                 Proficient in HTML, CSS, JavaScript, and React,Bootstrap, with a strong ability to build dynamic, responsive, and user-friendly web applications.
                 </h4>
-                <button  ><a href='https://portfolio-vishal-sh.netlify.app/Project'>See my projects</a></button>
+                <button className='container-fluid' ><a href='https://portfolio-vishal-sh.netlify.app/Project'>See my projects</a></button>
      
 
             </div>
             <div className='container-fluid right-right'>
                 <h4>Feel free to reach out for collaboration or inquiries. Let’s create something amazing together!</h4>
-                <button ><a href='https://portfolio-vishal-sh.netlify.app/contact'>Get In Touch</a></button>
+                <button className='container-fluid' ><a href='https://portfolio-vishal-sh.netlify.app/contact'>Get In Touch</a></button>
             </div>
             </div>
         </div>
