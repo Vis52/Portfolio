@@ -4,7 +4,7 @@ import code from '../utils/code.webp';
 
 
 const Home = () => {
-  return (<div className='vc'>
+  return (<div className=' container-fluid vc'>
     <div className='vc-left'>
         <h1>Hey,<br/>
         I'm Vishal Sharma<br/>

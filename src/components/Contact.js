@@ -5,7 +5,7 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className='bo'>
+    <div className=' container-fluid bo'>
     <div className='contact-info'>
         <h1> Contact Us</h1><br/>
         <div className='contact-container'>

@@ -6,7 +6,7 @@ import organic from '../utils/organic.jpg'
 
 const Project = () => {
     return (
-        <div class="car-container">
+        <div class=" container-fluid car-container">
             <div class="car">
                 <h3>Asset Care WebApp
 

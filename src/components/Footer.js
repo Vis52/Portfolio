@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className=' container-fluid footer'>
         <div className='footer-left'>
             <h2>@Vishal Sharma-2025</h2>
 

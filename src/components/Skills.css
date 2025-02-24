@@ -1,4 +1,4 @@
-/* Base styles (Mobile-First Approach) */
+
 .main {
     background-color: #010c21;
     display: flex;
@@ -12,7 +12,7 @@
     background-color: white;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Vertically align the image and text */
+    align-items: center; 
     justify-content: center;
     margin: 0 20px;
     margin-top: 100px;

@@ -3,7 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className=' container-fluid navbar'>
         <div className='logo'>
             <h2>Vishal Sharma</h2>
         </div>
